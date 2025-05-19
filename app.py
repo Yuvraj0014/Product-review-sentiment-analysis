@@ -8,6 +8,7 @@ import string
 # Download NLTK data (only first time)
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 
 # Load the pre-trained model and vectorizer
 model = joblib.load('best_sentiment_model.pkl')
